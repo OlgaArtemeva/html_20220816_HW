@@ -1,0 +1,172 @@
+<!-- First level: Выполнить верстку произвольной страницы "О себе" или "О компании" (или другая тема) с помощью известных тегов HTML и свойств CSS. -->
+
+<!-- Справочная информация: -->
+<!-- https://developer.mozilla.org/ru/docs/Web/HTML -->
+<!-- https://developer.mozilla.org/ru/docs/Web/CSS -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- подключили ссылку на библиотеку пиктограмм -->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Полиглот</title>
+
+    <!-- подключили ссылку на css-файл -->
+    <link rel="stylesheet" href="mystyle.css" />
+
+    <!-- <style> -->
+    <!-- </style> -->
+  </head>
+
+  <body>
+    <div class="blue">
+      <a class="white" href="#aboutUs">О нас</a> <!-- ?? при переходе нассылку попадаем ниже -->
+      <a class="white" href="#contact">Контакт</a> <!-- ?? при переходе нассылку попадаем ниже -->
+    </div>
+    <h1>
+      <!-- вставляем пиктограмму -->
+      <span class="icon">
+        <i class="las la-universal-access"></i>
+      </span>
+      Полиглот
+    </h1>
+
+    <p>
+      <img
+        src="https://www.1g9.ru/wp-content/uploads/2017/04/festyaz.jpg"
+        alt="Логотип"
+      />
+    </p>
+
+    <h2>Научитесь говорить уверенно</h2>
+
+    <ol>
+      <li>Онлайн-уроки 24/7</li>
+      <li>Обучение в мини-группах или индивидуально</li>
+      <li>Бесплатная пробная неделя</li>
+    </ol>
+    <h3>Утренние занятия (9:00 - 12:00)</h3>
+    <ul>
+      <li>
+        Английский
+        <a href="https://www.youtube.com/watch?v=wgAUr1LDUNM" target="_blank"
+          >Ссылка</a
+        >
+      </li>
+      <li>
+        Немецкий
+        <a href="https://www.youtube.com/watch?v=m1w_m1wpZc8" target="_blank"
+          >Ссылка</a
+        >
+      </li>
+      <li>
+        Французский
+        <a href="https://www.youtube.com/watch?v=BHpCIOiizas" target="_blank"
+          >Ссылка</a
+        >
+      </li>
+    </ul>
+    <h3>Вечерние занятия (19:00 - 22:00)</h3>
+    <ul>
+      <li>
+        Английский
+        <a href="https://www.youtube.com/watch?v=wgAUr1LDUNM" target="_blank"
+          >Ссылка</a
+        >
+      </li>
+      <li>
+        Немецкий
+        <a href="https://www.youtube.com/watch?v=m1w_m1wpZc8" target="_blank"
+          >Ссылка</a
+        >
+      </li>
+      <li>
+        Французский
+        <a href="https://www.youtube.com/watch?v=BHpCIOiizas" target="_blank"
+          >Ссылка</a
+        >
+      </li>
+    </ul>
+
+   
+    <h3>
+      О нашей
+      <span class="is-red"> компании </span>
+    </h3>
+    <a id="aboutUs"></a>
+    <p>
+      Полиглот предлагает уже более 40 лет языковые курсы и обучение за рубежом
+      и принадлежит к одним из самых успешных организаций по изучению
+      иностранных языков. На сегодняшний день в составе компании более чем 30
+      языковых школ, где мы предлагаем изучение английского, немецкого и
+      французского языков.
+    </p>
+    <h4>Наши преподаватели</h4>
+    <img
+      class="blue"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQglQk0B0pZe6ziI0s9qF7XN_bMaVm90q17aw&usqp=CAU"
+      alt="Фото сотрудника"
+    />
+    <img
+      class="blue"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQAYZAhLwDeDXaWFLpCmPPLXH75f08i_gcww&usqp=CAU"
+      alt="Фото сотрудника"
+    />
+    <img
+      class="blue"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqmsghAfVdLgglSc_3AzJqO1QdZjtDnz-b3Q&usqp=CAU"
+      alt="Фото сотрудника"
+    />
+
+  <h3>Контакт</h3>
+    <a id="contact"></a>
+    <p>Адрес : г.Москва, ул.Арбат 2, офис 3</p>
+    <p>Телефон : (495) 111-22-33 (c 10:00 до 19:00)</p>
+
+
+    <img
+      class="flag"
+      src="https://static6.depositphotos.com/1011646/540/i/450/depositphotos_5407013-stock-photo-world-flags-set.jpg"
+      alt="Фото флагов мира"
+    />
+
+    <!-- пример с <div> -->
+    <img
+      class="blue"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqmsghAfVdLgglSc_3AzJqO1QdZjtDnz-b3Q&usqp=CAU"
+      alt="Фото сотрудника"
+    />
+
+    <img
+      class="blue"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqmsghAfVdLgglSc_3AzJqO1QdZjtDnz-b3Q&usqp=CAU"
+      alt="Фото сотрудника"
+    />
+
+    <div>
+      <img
+        class="blue"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqmsghAfVdLgglSc_3AzJqO1QdZjtDnz-b3Q&usqp=CAU"
+        alt="Фото сотрудника"
+      />
+    </div>
+
+    <div>
+      <img
+        class="blue"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqmsghAfVdLgglSc_3AzJqO1QdZjtDnz-b3Q&usqp=CAU"
+        alt="Фото сотрудника"
+      />
+    </div>
+  </body>
+
+  <!-- ?????  отличие background для body и html ????? -->
+  
+</html>

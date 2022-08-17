@@ -1,0 +1,63 @@
+html {
+  background: beige;
+}
+
+/* поменять семейство шрифтов на сайте      */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+h1 {
+  background: gold;
+  text-align: center;
+  font-size: 4pc;
+  color: coral;
+  padding: 20px;
+  text-align: center;
+  margin: 2rem;
+  scroll-padding-left: 0;
+  border: 9px solid rgb(201, 172, 7);
+  box-shadow: 15px 15px 20px rgb(158, 134, 2);
+}
+
+button {
+  margin: 2px;
+}
+
+div.blue {
+  width: 100%;
+  background: blue;
+  text-align: right;
+  position: fixed;
+  top: 0;
+  left: 0; /* почему без left: 0; съезжает вправо?? */
+}
+
+a.white {
+  color: rgb(255, 255, 255);
+}
+
+img {
+  width: auto;
+  height: 150px;
+  border-radius: 22px 22px 22px 22px;
+}
+img.blue {
+  border: 3px solid blue;
+  box-shadow: 15px 15px 20px #fc0000;
+}
+h2 span {
+  font-wiight: 700;
+  color: grey;
+}
+
+.is-red {
+  color: red;
+}
+
+img.flag {
+  width: 100vw;
+  /* width: 100%; */
+  height: auto;
+}
